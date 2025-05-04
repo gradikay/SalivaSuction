@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base of the bottle -->
+  <ellipse cx="100" cy="165" rx="40" ry="15" fill="#4e73df" opacity="0.9" />
+  
+  <!-- Bottle body -->
+  <path d="M60 165 V80 C60 50 140 50 140 80 V165" fill="#e6f1ff" stroke="#4e73df" stroke-width="4" />
+  
+  <!-- Bottle neck -->
+  <path d="M80 50 V30 C80 20 120 20 120 30 V50" fill="#e6f1ff" stroke="#4e73df" stroke-width="4" />
+  
+  <!-- Bottle top -->
+  <ellipse cx="100" cy="30" rx="20" ry="10" fill="#4e73df" opacity="0.9" />
+  
+  <!-- Connector from bottle to suction tube -->
+  <rect x="90" y="15" width="20" height="15" fill="#e6f1ff" stroke="#4e73df" stroke-width="2" />
+  
+  <!-- Suction tube -->
+  <path d="M100 15 C130 10 150 5 160 20" stroke="#4e73df" stroke-width="6" fill="none" />
+  
+  <!-- Suction tip -->
+  <path d="M160 20 L170 25 L165 30 L160 20" fill="#4e73df" />
+  
+  <!-- Liquid level indicator line -->
+  <line x1="70" y1="120" x2="130" y2="120" stroke="#4e73df" stroke-width="2" stroke-dasharray="5,3" />
+  
+  <!-- Control panel indicators -->
+  <circle cx="80" cy="90" r="5" fill="#1cc88a" />
+  <circle cx="100" cy="90" r="5" fill="#4e73df" />
+  <circle cx="120" cy="90" r="5" fill="#e74a3b" />
+  
+  <!-- Professional cross symbol -->
+  <path d="M95 140 H105 V150 H115 V160 H105 V170 H95 V160 H85 V150 H95 Z" fill="#4e73df" opacity="0.8" />
+</svg>
