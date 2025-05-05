@@ -1,0 +1,137 @@
+/* Custom styles for BabySuction landing page */
+
+/* Design Section Overlay Effects */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(136, 96, 208, 0.85);
+    color: white;
+    padding: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.gallery-item:hover .overlay {
+    bottom: 0;
+}
+
+.gallery-item .overlay h4 {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.gallery-item .overlay p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+/* Luxurious accents */
+.luxury-accent {
+    position: relative;
+}
+
+.luxury-accent::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: var(--primary-color);
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Enhanced button styles */
+.btn-luxury {
+    background: var(--gradient);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(136, 96, 208, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-luxury:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(136, 96, 208, 0.4);
+}
+
+/* Bottle animation */
+@keyframes gentle-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.bottle-float {
+    animation: gentle-float 5s ease-in-out infinite;
+}
+
+/* Enhanced testimonial styles */
+.testimonial-card::before {
+    content: '\201C';
+    font-family: Georgia, serif;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 5rem;
+    color: rgba(136, 96, 208, 0.1);
+    line-height: 1;
+}
+
+/* Custom section divider */
+.section-divider {
+    position: relative;
+    height: 50px;
+    margin: -25px 0;
+    z-index: 1;
+}
+
+.section-divider svg {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+
+/* Focus points highlight */
+.focus-point {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.focus-point::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+/* Contact form enhancements */
+.luxury-input {
+    border: none;
+    border-bottom: 2px solid var(--light-gray);
+    border-radius: 0;
+    padding: 15px 5px;
+    transition: all 0.3s ease;
+}
+
+.luxury-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
