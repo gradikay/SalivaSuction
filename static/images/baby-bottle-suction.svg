@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base of the bottle -->
+  <ellipse cx="100" cy="170" rx="35" ry="12" fill="#8860d0" opacity="0.9" />
+  
+  <!-- Bottle body - baby bottle shape -->
+  <path d="M65 170 V75 C65 60 75 55 100 55 C125 55 135 60 135 75 V170" fill="#ffffff" stroke="#8860d0" stroke-width="4" />
+  
+  <!-- Measurement markings on bottle -->
+  <line x1="70" y1="150" x2="80" y2="150" stroke="#8860d0" stroke-width="1.5" />
+  <text x="82" y="153" font-size="8" fill="#8860d0">50ml</text>
+  
+  <line x1="70" y1="130" x2="80" y2="130" stroke="#8860d0" stroke-width="1.5" />
+  <text x="82" y="133" font-size="8" fill="#8860d0">100ml</text>
+  
+  <line x1="70" y1="110" x2="80" y2="110" stroke="#8860d0" stroke-width="1.5" />
+  <text x="82" y="113" font-size="8" fill="#8860d0">150ml</text>
+  
+  <line x1="70" y1="90" x2="80" y2="90" stroke="#8860d0" stroke-width="1.5" />
+  <text x="82" y="93" font-size="8" fill="#8860d0">200ml</text>
+  
+  <!-- Bottle neck -->
+  <path d="M85 55 V35 C85 25 115 25 115 35 V55" fill="#ffffff" stroke="#8860d0" stroke-width="4" />
+  
+  <!-- Bottle top cap -->
+  <ellipse cx="100" cy="30" rx="18" ry="8" fill="#8860d0" opacity="0.9" />
+  <path d="M90 30 C90 25 110 25 110 30" stroke="#ffffff" stroke-width="2" fill="none" />
+  
+  <!-- Suction mechanism nipple -->
+  <path d="M95 30 V20 C95 15 105 15 105 20 V30" fill="#ffffff" stroke="#8860d0" stroke-width="2" />
+  <ellipse cx="100" cy="15" rx="5" ry="3" fill="#8860d0" />
+  
+  <!-- Liquid level - slightly filled -->
+  <path d="M65 170 V140 C65 140 75 145 100 145 C125 145 135 140 135 140 V170" fill="#dcd0ff" opacity="0.5" />
+  
+  <!-- Decorative elements -->
+  <path d="M75 100 C85 95 115 95 125 100" stroke="#8860d0" stroke-width="1.5" fill="none" stroke-dasharray="2,2" />
+  <path d="M75 120 C85 115 115 115 125 120" stroke="#8860d0" stroke-width="1.5" fill="none" stroke-dasharray="2,2" />
+  
+  <!-- Logo text -->
+  <text x="100" y="75" font-size="12" font-weight="bold" text-anchor="middle" fill="#8860d0">BabySuction</text>
+  
+  <!-- Control button -->
+  <circle cx="100" cy="170" r="8" fill="#5e48a0" stroke="#ffffff" stroke-width="1" />
+  <path d="M96 170 L104 170 M100 166 L100 174" stroke="#ffffff" stroke-width="1.5" />
+</svg>

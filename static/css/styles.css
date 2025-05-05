@@ -2,23 +2,26 @@
 # Global Styles
 --------------------------------------------------------------*/
 :root {
-    --primary-color: #4e73df;
-    --primary-dark: #3a56b0;
-    --secondary-color: #1cc88a;
-    --dark-color: #2e3a59;
+    --primary-color: #8860d0;
+    --primary-dark: #5e48a0;
+    --secondary-color: #c1b8e4;
+    --accent-color: #f8b195;
+    --dark-color: #424874;
     --light-color: #f8f9fc;
-    --gray-color: #858796;
+    --gray-color: #84828a;
     --light-gray: #eaecf4;
     --white: #ffffff;
-    --shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    --shadow: 0 .5rem 1rem rgba(0, 0, 0, .08);
     --transition: all 0.3s ease;
+    --gradient: linear-gradient(135deg, #8860d0 0%, #5e48a0 100%);
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: var(--dark-color);
     overflow-x: hidden;
     background-color: var(--white);
+    line-height: 1.8;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -164,7 +167,7 @@ section {
 --------------------------------------------------------------*/
 .hero-section {
     padding: 180px 0 100px;
-    background: linear-gradient(135deg, #e6f1ff 0%, #f8f9fc 100%);
+    background: linear-gradient(135deg, #f1e8ff 0%, #f8f9fc 100%);
     position: relative;
     overflow: hidden;
 }
@@ -242,7 +245,7 @@ section {
 .feature-icon {
     width: 80px;
     height: 80px;
-    background-color: rgba(78, 115, 223, 0.1);
+    background-color: rgba(136, 96, 208, 0.1);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -370,7 +373,7 @@ section {
 .benefit-icon {
     width: 60px;
     height: 60px;
-    background-color: rgba(78, 115, 223, 0.1);
+    background-color: rgba(136, 96, 208, 0.1);
     border-radius: 10px;
     display: flex;
     align-items: center;
